@@ -212,6 +212,7 @@ function addUser(e) {
 
   e.preventDefault();
   modal.style.display = 'none';
+  location.reload();
 }
 
 // Store user
